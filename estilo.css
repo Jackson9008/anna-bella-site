@@ -1,0 +1,90 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d2d2c1;
+}
+
+/* IMAGENS */
+.img-campanha {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Container principal */
+#principal {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+/* Menu */
+#menu {
+    background: #c5c5b2;
+    padding: 18px;
+    text-align: center;
+}
+
+/* Conteúdo */
+#conteudo {
+    background: #e8e8d9;
+    padding: 15px;
+}
+
+/* Imagens */
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #c3c3ae;
+    display: block;
+}
+
+/* Rodapé */
+#rodape {
+    text-align: center;
+    padding: 10px;
+    background: #c5c5b2;
+}
+
+/* Links */
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Centralização */
+.centralizar {
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: #828271;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .img-campanha {
+        border-width: 5px;
+    }
+}
+
+
